@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+:root {
+    --cor-principal: ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
