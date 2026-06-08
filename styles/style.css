@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 :root {
-    --cor-principal: ;
+    --fundo-principal: #F4FDD9;
+    --texto-principal: #071108;
+
+    --verde-principal: #1C8A30;
+    --verde-destaque: #053225;
 }
 
 * {
