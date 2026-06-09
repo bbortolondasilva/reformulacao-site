@@ -40,5 +40,5 @@ header {
 }
 
 .navbar-brand #logo-softcontrol{
-    width: clamp(100px, 150px, 300px);
+    width: min(80%, 250px);
 }
