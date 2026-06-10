@@ -52,8 +52,20 @@ div.banner {
     background-color: #053225;
 
     height: 200px;
+    margin-top: 76px;
 }
 
 main {
     grid-column: 2 / 3;
+
+    padding: 10px;
+
+    background-color: #1C8A30;
+}
+
+section {
+    margin: auto;
+    margin-bottom: 15px;
+
+    background-color: #053225;
 }
