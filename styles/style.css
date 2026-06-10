@@ -36,9 +36,9 @@ header {
 }
 
 .navbar-brand #icone-softcontrol {
-    width: 50px;
+    width: min(20%, 50px);
 }
 
 .navbar-brand #logo-softcontrol{
-    width: min(80%, 250px);
+    width: min(80%, 230px);
 }
