@@ -23,16 +23,15 @@ body, html {
 
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 100px 1fr 100px; 
 }
 
 header {
     grid-column: 1 / -1;
-    grid-row: 1 / 2;
 
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1;
-
-    background-color: lightgray;
 }
 
 .navbar-brand {
@@ -48,16 +47,13 @@ header {
 }
 
 div.banner {
-    grid-row: 2;
     grid-column: 1 / -1;
-    
+
     background-color: #053225;
 
     height: 200px;
-    width: 100%;
 }
 
 main {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
 }
