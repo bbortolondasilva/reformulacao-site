@@ -28,9 +28,11 @@ body, html {
 
 header {
     grid-column: 1 / -1;
-    grid-row: 1 / span 1;
+    grid-row: 1 / 2;
 
     z-index: 1;
+
+    background-color: lightgray;
 }
 
 .navbar-brand {
@@ -43,4 +45,19 @@ header {
 
 .navbar-brand #logo-softcontrol{
     width: min(80%, 230px);
+}
+
+div.banner {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    
+    background-color: #053225;
+
+    height: 200px;
+    width: 100%;
+}
+
+main {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
