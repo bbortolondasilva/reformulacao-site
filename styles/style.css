@@ -84,4 +84,10 @@ section {
     text-align: center;
 }
 
-
+div#prod-serv-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
