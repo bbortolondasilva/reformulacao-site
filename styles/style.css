@@ -59,6 +59,10 @@ div.banner {
     height: 200px;
     margin-top: 76px;
     margin-bottom: 15px;
+
+    background-image: url("../assets/imagens/empresa/foto-banner-fundo.png");
+    background-size: cover;
+    background-position: center center;
 }
 
 main {
