@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    --fundo-principal: #F4FDD9;
+    --fundo-principal: #FDFCFA;
     --texto-principal: #071108;
 
     --verde-principal: #1C8A30;
@@ -23,6 +23,9 @@ body, html {
 
     display: grid;
     grid-template-columns: 10% 80% 10%;
+
+    background-color: var(--fundo-principal);
+    color: var(--texto-principal);
 }
 
 header {
@@ -51,8 +54,15 @@ div.banner {
 
     background-color: #053225;
 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.26);
+
     height: 200px;
     margin-top: 76px;
+    margin-bottom: 15px;
+
+    background-image: url("../assets/imagens/empresa/banner/banner-completo-pq.png");
+    background-size: cover;
+    background-position: center center;
 }
 
 main {
@@ -60,12 +70,28 @@ main {
 
     padding: 10px;
 
-    background-color: #1C8A30;
+    /* background-color: #1C8A30; */
 }
 
 section {
     margin: auto;
     margin-bottom: 15px;
 
-    background-color: #053225;
+    /* background-color: #053225; */
+}
+
+#prod-serv > h2 {
+    text-align: center;
+}
+
+#prod-serv > p {
+    text-align: center;
+}
+
+div#prod-serv-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
