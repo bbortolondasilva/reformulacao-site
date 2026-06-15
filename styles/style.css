@@ -54,11 +54,11 @@ div.banner {
 
     background-color: #053225;
 
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.411);
 
     height: 200px;
     margin-top: 76px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 
     background-image: url("../assets/imagens/empresa/banner/banner-completo-pq.png");
     background-size: cover;
@@ -66,9 +66,10 @@ div.banner {
 }
 
 main {
-    grid-column: 2 / 3;
+    grid-column: 1 / -1;
 
-    padding: 10px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
 
     /* background-color: #1C8A30; */
 }
@@ -77,7 +78,21 @@ section {
     margin: auto;
     margin-bottom: 15px;
 
+    grid-column: 2 / 3;
+
     /* background-color: #053225; */
+}
+
+#sobre {
+    background-color: var(--verde-destaque);
+    grid-column: 1 / -1;
+    text-align: center;
+
+    padding: 10px;
+}
+
+#sobre > h2, p {
+    color: white;
 }
 
 #prod-serv > h2 {
