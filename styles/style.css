@@ -58,7 +58,7 @@ div.banner {
 
     height: 200px;
     margin-top: 76px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
     background-image: url("../assets/imagens/empresa/banner/banner-completo-pq.png");
     background-size: cover;
@@ -90,12 +90,12 @@ section {
     padding: 10px;
 }
 
-#sobre > h2, p {
+#sobre > h2, h4 {
     color: white;
 }
 
-#sobre #cards-sobre {
-    border: 1px solid red;
+#sobre > p {
+    color: white;
 }
 
 #sobre #cards-sobre .card {
