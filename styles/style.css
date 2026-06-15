@@ -90,7 +90,11 @@ section {
     padding: 10px;
 }
 
-#sobre > h2, h4 {
+#sobre > h2 {
+    color: white;
+}
+
+#sobre > h4 {
     color: white;
 }
 
