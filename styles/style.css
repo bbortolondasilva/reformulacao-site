@@ -75,7 +75,6 @@ main {
 }
 
 section {
-    margin: auto;
     margin-bottom: 15px;
 
     grid-column: 2 / 3;
@@ -85,7 +84,7 @@ section {
 
 #sobre {
     background-color: var(--verde-destaque);
-    grid-column: 1 / 4;
+    grid-column: 1 / -1;
     text-align: center;
 
     padding: 10px;
@@ -95,9 +94,9 @@ section {
     color: white;
 }
 
-#sobre #cards-sobre {
+/* #sobre #cards-sobre {
     border: 1px solid red;
-}
+} */
 
 /* .card img {
     
