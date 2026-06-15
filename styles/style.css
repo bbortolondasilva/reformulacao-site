@@ -94,13 +94,14 @@ section {
     color: white;
 }
 
-/* #sobre #cards-sobre {
+#sobre #cards-sobre {
     border: 1px solid red;
-} */
+}
 
-/* .card img {
-    
-} */
+.card {
+    color: white;
+    background-color: var(--verde-principal);
+}
 
 #prod-serv > h2 {
     text-align: center;
