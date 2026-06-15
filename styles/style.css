@@ -95,6 +95,14 @@ section {
     color: white;
 }
 
+#sobre #cards-sobre {
+    border: 1px solid red;
+}
+
+/* .card img {
+    
+} */
+
 #prod-serv > h2 {
     text-align: center;
 }
