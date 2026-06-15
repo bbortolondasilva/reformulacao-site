@@ -85,7 +85,7 @@ section {
 
 #sobre {
     background-color: var(--verde-destaque);
-    grid-column: 1 / -1;
+    grid-column: 1 / 4;
     text-align: center;
 
     padding: 10px;
