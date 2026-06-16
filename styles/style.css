@@ -122,3 +122,25 @@ div#prod-serv-container {
     align-items: center;
     gap: 10px;
 }
+
+#parceiros {
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+#parceiros #parceiros-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#parceiros #parceiros-container .item-parceiro {
+    padding: 10px;
+}
+
+.item-parceiro img {
+    width: min(150px, 200px, 30vw);
+}
