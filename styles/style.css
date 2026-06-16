@@ -139,6 +139,7 @@ div#prod-serv-container {
 
 #parceiros #parceiros-container .item-parceiro {
     padding: 10px;
+    flex: 1 0 150px;
 }
 
 .item-parceiro img {
