@@ -145,3 +145,9 @@ div#prod-serv-container {
 .item-parceiro img {
     width: min(150px, 200px, 30vw);
 }
+
+footer {
+    grid-column: 1 / -1;
+
+    padding: 15px;
+}
