@@ -90,6 +90,12 @@ section {
     padding: 10px;
 }
 
+.imagem-pilar{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
 #sobre > h2 {
     color: white;
 }
