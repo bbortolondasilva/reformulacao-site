@@ -146,8 +146,26 @@ div#prod-serv-container {
     width: min(150px, 200px, 30vw);
 }
 
+#downloads {
+    background-color: var(--verde-destaque);
+    color: white;
+}
+
 footer {
     grid-column: 1 / -1;
 
-    padding: 15px;
+    padding: 30px;
+
+    background-color: var(--texto-principal);
+    color: white;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer section {
+    padding: 5px;
+    border: 1px solid;
 }
