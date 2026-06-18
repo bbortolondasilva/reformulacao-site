@@ -154,19 +154,26 @@ div#prod-serv-container {
 footer {
     grid-column: 1 / -1;
 
-    padding: 30px;
+    padding: 50px 30px 0px 30px;
 
     background-color: var(--texto-principal);
     color: white;
+}
 
+footer section {
+    padding: 5px;
+    flex: 1 1 200px;
+    border: 1px solid;
+}
+
+#seguir {
+    text-align: center;
+}
+
+#footer-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
-}
-
-footer section {
-    padding: 5px;
-    flex: 1 1;
 }
