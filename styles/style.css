@@ -161,11 +161,12 @@ footer {
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 footer section {
     padding: 5px;
-    border: 1px solid;
+    flex: 1 1;
 }
