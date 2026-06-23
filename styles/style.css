@@ -173,6 +173,7 @@ div#prod-serv-container {
     display: grid;
 
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-items: center;
 
     gap: 25px;
 
@@ -228,7 +229,6 @@ div#prod-serv-container {
     width: min(150px, 200px, 30vw);
 }
 
-<<<<<<< Updated upstream
 #downloads {
     background-color: var(--verde-destaque);
     color: white;
@@ -259,5 +259,3 @@ footer section {
     align-items: start;
     gap: 30px;
 }
-=======
->>>>>>> Stashed changes
