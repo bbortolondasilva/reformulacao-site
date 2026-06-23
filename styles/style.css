@@ -151,3 +151,34 @@ div#prod-serv-container {
 .item-parceiro img {
     width: min(150px, 200px, 30vw);
 }
+
+#downloads {
+    background-color: var(--verde-destaque);
+    color: white;
+}
+
+footer {
+    grid-column: 1 / -1;
+
+    padding: 50px 30px 0px 30px;
+
+    background-color: var(--texto-principal);
+    color: white;
+}
+
+footer section {
+    padding: 5px;
+    flex: 1 1 200px;
+}
+
+#seguir {
+    text-align: center;
+}
+
+#footer-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
