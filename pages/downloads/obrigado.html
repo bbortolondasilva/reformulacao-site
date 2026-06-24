@@ -15,16 +15,20 @@
     <link rel="stylesheet" href="../../styles/style.css">
 
     <style>
-        #downloads-container {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
+        #agradecimento {
+            height: 60vh;
         }
-
-        .item-download {
-            flex: 0 0 280px;
+        #agradecimento img {
+            width: min(80px, 100px);
+            margin-bottom: 10px;
+        }
+        #agradecimento p a {
+            color: var(--verde-principal);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #agradecimento p a:hover {
+            color: var(--verde-destaque);
         }
     </style>
 </head>
@@ -59,16 +63,13 @@
 
     <main>
         <section id="agradecimento" class="text-center" style="padding: 20px 15px; margin-top: 85px;">
+            <img src="../../assets/imagens/empresa/logo/logo-icone.png" alt="Logo SoftControl Brasil">
+
             <h2 class="mb-3">Obrigado por fazer o download!</h2>
 
-            <p>Caso o download não tenha iniciado automaticamente <strong><a href="" style="color: var(--verde-principal); text-decoration: none;">Clique Aqui</a></strong></p>
+            <p>Caso o download não tenha iniciado automaticamente <strong><a href="" id="baixar-novamente">Clique Aqui <i class="bi bi-link-45deg"></i></a></strong></p>
         </section>        
-        <!-- Fim seção downloads -->
-
-        <div class="banner">
-            <!-- Banner SoftControl Brasil -->
-        </div>
-        <!-- Fim div banner -->
+        <!-- Fim seção agradecimento -->
     </main>
 
     <footer>
