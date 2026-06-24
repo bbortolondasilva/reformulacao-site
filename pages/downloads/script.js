@@ -5,7 +5,7 @@ function baixar() {
     const params = new URLSearchParams(window.location.search)
     const arquivo = params.get("arquivo")
 
-    const caminho = "../../assets/download/" + arquivo
+    const caminho = "../../assets/download/" + arquivo;
 
     const b_novamente = document.getElementById("baixar-novamente")
     b_novamente.href = caminho
