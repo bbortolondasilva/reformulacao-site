@@ -179,6 +179,10 @@ div#prod-serv-container {
     margin-top: 30px;
 }
 
+.item-prod-serv {
+    border-radius: 15px;
+}
+
 .item-prod-serv .card {
     width: 100% !important;
     max-width: 320px;
