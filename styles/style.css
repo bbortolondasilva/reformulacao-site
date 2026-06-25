@@ -86,6 +86,42 @@ div.banner {
 
 }
 
+div.banner-down {
+    grid-column: 1 / -1;
+
+    background-color: #053225;
+
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.411);
+
+    height: 200px;
+    margin-top: 76px;
+
+    background-image: url("../assets/imagens/empresa/banner/pagina.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+@media screen and (min-width:768px){
+
+    div.banner-down {
+        grid-column: 1 / -1;
+
+        background-color: #053225;
+
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.411);
+
+        height: 720px;
+        margin-top: 76px;
+        margin-bottom: 10px;
+
+        background-image: url("../assets/imagens/empresa/banner/pagina.png");
+        background-size: cover;
+        background-position: center center;
+    }
+
+}
+
+
 
 main {
     grid-column: 1 / -1;
