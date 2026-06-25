@@ -198,6 +198,11 @@ div#prod-serv-container {
     gap: 25px;
 
     margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.item-prod-serv {
+    border-radius: 15px;
 }
 
 .item-prod-serv .card {
