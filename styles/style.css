@@ -60,7 +60,6 @@ div.banner {
 
     height: 200px;
     margin-top: 76px;
-    margin-bottom: 10px;
 
     background-image: url("../assets/imagens/empresa/banner/banner-completo-pq.png");
     background-size: cover;
@@ -194,6 +193,7 @@ div#prod-serv-container {
     display: grid;
 
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-items: center;
 
     gap: 25px;
 
