@@ -71,6 +71,9 @@
                         <div class="card-body">
                             <h5 class="card-title"><b>Zweb - Sistema WEB</b></h5>
                             <p class="card-text">O zweb é a solução voltada para o cliente que solicita o melhor da tecnologia.</p>
+
+                            <!-- Botão que abre o modal -->
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#teste">Saiba mais</button>
                         </div>
                     </div>
                 </div>
@@ -349,5 +352,24 @@
 
     <!-- Script Próprio -->
     <script src="scripts/script.js"></script>
+
+    <!-- Modal -->
+    <div class="modal fade" id="teste" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
