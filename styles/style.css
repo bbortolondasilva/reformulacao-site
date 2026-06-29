@@ -286,20 +286,27 @@ footer {
     height: 60px;
     bottom: 25px;
     right: 25px;
-    background: #25D366;
+    background-color: #25d366;
     color: white;
+
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+
     font-size: 2rem;
-    z-index: 999;
-    box-shadow: 0 10px 25px rgba(0,0,0,.2);
-    transition: .3s;
+    text-decoration: none;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+    z-index: 9999;
+
+    transition: 0.3s;
 }
 
 .whatsapp-float:hover{
     transform: scale(1.1);
+    color: white;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
