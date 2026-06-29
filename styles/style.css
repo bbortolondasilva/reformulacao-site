@@ -111,9 +111,12 @@ section {
     color: white;
 }
 
-#sobre #cards-sobre .card {
-    color: white;
-    background-color: var(--verde-principal);
+#sobre .container .card {
+    transition: 0.3s;
+}
+
+#sobre .container .card:hover {
+    transform: translateY(-5px);
 }
 
 #prod-serv > h2 {
