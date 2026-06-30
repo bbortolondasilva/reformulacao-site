@@ -6,8 +6,10 @@ O objetivo foi realizar a reformulação de um site empresarial, aplicando conce
 
 ## Demonstração
 
-🔗 Site publicado:
-https://bbortolondasilva.github.io/reformulacao-site/
+🔗 Site publicado: https://bbortolondasilva.github.io/reformulacao-site/
+
+🔗 Site antigo:
+https://softcontrolbrasil.com.br/
 
 ## Objetivos do projeto
 
