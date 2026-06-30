@@ -309,6 +309,21 @@ footer {
     color: white;
 }
 
+.numeros {
+    background: linear-gradient(90deg, #0d0d0d, #111);
+    color: white;
+}
+
+.numeros h2 {
+    font-size: 3rem;
+    color: var(--verde-principal);
+    font-weight: bold;
+}
+
+.numeros p {
+    color: #d8d8d8;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     div.banner {
         height: 400px;
