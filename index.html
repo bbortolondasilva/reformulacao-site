@@ -15,8 +15,16 @@
     <link rel="stylesheet" href="styles/style.css">
 
     <style>
-        .banner{
-            background-image: url("../assets/imagens/empresa/banner/banner-completo-pq.png");
+        @media screen and (max-width: 768px) {
+            .banner{
+                background-image: url("assets/imagens/empresa/banner/banner-completo-pq.png");
+            }
+        }
+        
+        @media screen and (min-width: 768px) {
+            .banner {
+                background-image: url("assets/imagens/empresa/banner/banner-completo.png");
+            }
         }
     </style>
 </head>

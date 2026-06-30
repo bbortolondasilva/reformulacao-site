@@ -315,6 +315,7 @@ footer {
 .numeros {
     background: linear-gradient(90deg, #0d0d0d, #111);
     color: white;
+    grid-column: 1/-1;
 }
 
 .numeros h2 {
